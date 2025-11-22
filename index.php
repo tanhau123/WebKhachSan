@@ -19,10 +19,10 @@
 <body>
   <header>  
     <div class="logo"><strong>Khách Sạn Quy Nhơn</strong></div>
-    <nav>
-      <a href="WebKhachSan/Nhom3/DatPhong/DatPhong.php">Đặt phòng</a>
-      <a href="#lienhe">Liên hệ hỗ trợ</a>
-    </nav>
+   <nav>
+		<a href="Nhom3/DatPhong/datphong.php" class="link-transition">Đặt phòng</a>
+		<a href="#lienhe">Liên hệ hỗ trợ</a>
+	</nav>
     <div class="auth-buttons">
       <?php if (isset($_SESSION['fullname']) && !empty($_SESSION['fullname'])): ?> 
         <span style="font-weight: bold; color:#e6b478; padding: 8px; background-color:white; border: 2px solid transparent; border-radius: 8px;">
